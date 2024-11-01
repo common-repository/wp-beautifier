@@ -1,0 +1,220 @@
+# LANGUAGE Translation of the WordPress plugin WP-Beautifier by AUTHOR.
+# Copyright (C) 2010 
+# This file is distributed under the same license as the WP-Beautifier plugin.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Beautifier 1.3.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-beautifier\n"
+"POT-Creation-Date: 2010-10-01 06:16+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: options.php:76 options.php:220
+msgid "Beautification Settings"
+msgstr ""
+
+#: options.php:76
+msgid "Beautification"
+msgstr ""
+
+#: options.php:92
+msgid "Edit plugin settings"
+msgstr ""
+
+#: options.php:92
+msgid "Settings"
+msgstr ""
+
+#: options.php:113 options.php:149
+msgid "FAQ"
+msgstr ""
+
+#: options.php:114 options.php:149
+msgid "Support Forum"
+msgstr ""
+
+#: options.php:115 options.php:150
+msgid "Donate"
+msgstr ""
+
+#: options.php:141
+msgid ""
+"<strong>Code indentation</strong> &#8211; The code indentation option "
+"unifies all line endings into unix-style <code>&#92;n</code> and removes all "
+"whitespace from the end and the beginning of each line and from the document "
+"in its entirety. It also removes empty lines, line breaks between tag "
+"attributes, line breaks in text inside of tags and horizontal whitespace "
+"between tags. Afterwards all lines are indented correctly with tabs "
+"<code>&#92;t</code> for easier reading."
+msgstr ""
+
+#: options.php:142
+msgid ""
+"<strong>Single quotes conversion</strong> &#8211; This option converts "
+"single quoted tag attributes values like <code>&lt;link rel=&#39;&#8230;&#39;"
+"&gt;</code> into double quoted attributes values <code>&lt;link rel=&#34;"
+"&#8230;&#34;&gt;</code>, if the attribute is not listed under <em>Ignored "
+"attributes</em>."
+msgstr ""
+
+#: options.php:143
+msgid ""
+"<strong>Ignored tags</strong> &#8211; The contents of these tags remain "
+"completly untouched. To remove or modify them, use the <em>custom regular "
+"expressions</em>."
+msgstr ""
+
+#: options.php:144
+msgid ""
+"<strong>Ignored attributes</strong> &#8211; These tag attributes will be "
+"ignored by the single quotes conversion."
+msgstr ""
+
+#: options.php:145
+msgid ""
+"<strong>Custom regular expressions</strong> &#8211; Each line is treated as "
+"a <a href=\"http://en.wikipedia.org/wiki/Regular_expression\" title="
+"\"Wikipedia article about regular expressions\" target=\"_blank\">regular "
+"expression pattern</a>. All matching strings are removed from the ouput, by "
+"passing each pattern through PHP's <code><a href=\"http://php.net/"
+"preg_replace\" target=\"_blank\">preg_replace</a></code> function. Empty "
+"lines and lines beginning with a <code>#</code> are ignored. Additional "
+"information about regular expressions can be found in the <a href=\"http://"
+"php.net/manual/en/reference.pcre.pattern.syntax.php\" target=\"_blank\">PHP "
+"documentation</a> and at <a href=\"http://regular-expressions.info/\" target="
+"\"_blank\">regular-expressions.info</a>. <strong>Be very careful! Invalid "
+"patterns can abort the execution of the WordPress frontend and your site "
+"becomes <em>temporarily</em> unusable (white/blank page)!</strong>"
+msgstr ""
+
+#: options.php:146
+msgid "Helpful links"
+msgstr ""
+
+#: options.php:148
+msgid "Plugin Homepage"
+msgstr ""
+
+#: options.php:148
+msgid "Plugin on WP.org"
+msgstr ""
+
+#: options.php:149
+msgid "Report a bug"
+msgstr ""
+
+#: options.php:149
+msgid "Request a feature"
+msgstr ""
+
+#: options.php:176
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: options.php:185
+msgid "Default settings restored."
+msgstr ""
+
+#: options.php:213
+msgid "Settings saved."
+msgstr ""
+
+#: options.php:225 options.php:228
+msgid "XHTML output cleaning"
+msgstr ""
+
+#: options.php:231
+msgid ""
+"Indent XHTML output and remove unnecessary whitespace, like empty lines and "
+"trailing whitespace."
+msgstr ""
+
+#: options.php:236
+msgid "Remove all comments <code>&lt;!-- &#8230; --&gt;</code> from output."
+msgstr ""
+
+#: options.php:241
+msgid ""
+"Convert single quoted <code>&#039;</code> tag attributes values into double "
+"quoted <code>&quot;</code> values."
+msgstr ""
+
+#: options.php:246
+msgid "Apply the <em>custom regular expressions</em> to XHTML output."
+msgstr ""
+
+#: options.php:252 options.php:255
+msgid "XML output cleaning"
+msgstr ""
+
+#: options.php:258
+msgid "Indent and clean RSS and Atom-Feed output."
+msgstr ""
+
+#: options.php:263
+msgid "Apply the <em>custom regular expressions</em> to Feed output."
+msgstr ""
+
+#: options.php:269 options.php:272
+msgid "Ignored tags"
+msgstr ""
+
+#: options.php:274
+msgid ""
+"Comma separated list of all tags, which contents will be preserved by the "
+"output cleaning. It's highly recommended to preserve the <code>pre</code>, "
+"<code>script</code> and <code>textarea</code> tag."
+msgstr ""
+
+#: options.php:279 options.php:282
+msgid "Ignored attributes"
+msgstr ""
+
+#: options.php:284
+msgid ""
+"Comma separated list of all tag attributes, which will be ignored by the "
+"single quotes conversion."
+msgstr ""
+
+#: options.php:289 options.php:292
+msgid "Custom regular expressions"
+msgstr ""
+
+#: options.php:293
+msgid ""
+"Each line is treated as a <a href=\"http://en.wikipedia.org/wiki/"
+"Regular_expression\" title=\"Wikipedia article about regular expressions\" "
+"target=\"_blank\">regular expression pattern</a> and applied to the output "
+"by passing it through PHP's <code><a href=\"http://php.net/preg_replace\" "
+"target=\"_blank\">preg_replace</a></code> function. Matching string will be "
+"remove from the output. Lines beginning with a <code>#</code> are ignored. "
+"<strong>Be very careful! Invalid patterns can abort the execution of the "
+"WordPress frontend and your site becomes <em>temporarily</em> unusable!</"
+"strong>"
+msgstr ""
+
+#: options.php:300
+msgid "Save Changes"
+msgstr ""
+
+#: options.php:301
+msgid "Reset Options"
+msgstr ""
+
+#: options.php:301
+msgid "Really restore factory settings?"
+msgstr ""
+
+#: options.php:305
+msgid ""
+"If you like this plugin and wish to thank the author by buying him a nice "
+"big ice cream, check out the donation page on <a href=\"http://wordpress."
+"pralinenschachtel.de/donations/\">his website</a>."
+msgstr ""
